@@ -1,0 +1,11 @@
+pcname = input('Olá meu nome é ')
+nome = input('{}: Poderia me dizer o seu nome ? '.format(pcname))
+print('{}: É um prazer em te conhecer,'.format(pcname), nome)
+idade = input('agora diga me sua idade ')
+print('{}: nome:'.format(pcname),nome,',','idade:', idade, 'anos')
+n1 = int(input('{}: {} digite um número '.format(pcname,nome)))
+n2 = int(input('{}: {} digite outro número '.format(pcname,nome)))
+s = n1 + n2
+print('{}: a soma de: {} mais: {} equivale a: {} '.format(pcname,n1,n2,s))
+n =input('digite algo ')
+print(n.isalnum)
